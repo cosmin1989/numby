@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Numby — color by number</title>
+<style>
+  :root { --ink:#2d2a26; --muted:#8a8378; --coral:#ff6b6b; --bg:#fdfbf7; --line:#ebe5dc; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system, "Segoe UI", Roboto, Arial, sans-serif; background:var(--bg); color:var(--ink);
+         min-height:100vh; display:flex; align-items:center; justify-content:center; text-align:center; }
+  .logo { display:flex; justify-content:center; margin-bottom:20px; }
+  .logo span { width:34px; height:34px; border-radius:9px; transform:rotate(8deg); margin-left:-9px;
+               box-shadow:0 4px 10px rgba(45,42,38,.15); }
+  .logo span:first-child { margin-left:0; }
+  h1 { font-size:44px; letter-spacing:-1px; }
+  .tag { color:var(--muted); letter-spacing:4px; text-transform:uppercase; font-size:13px; margin-top:6px; }
+  p { color:var(--muted); margin-top:16px; }
+  .links { margin-top:28px; display:flex; gap:12px; justify-content:center; }
+  .links a { color:var(--ink); text-decoration:none; border:1px solid var(--line); background:#fff;
+             padding:10px 20px; border-radius:999px; font-size:14px; }
+  .links a:hover { border-color:var(--coral); color:var(--coral); }
+</style>
+</head>
+<body>
+<main>
+  <div class="logo">
+    <span style="background:#ff6b6b"></span><span style="background:#ffd93d"></span><span style="background:#20c997"></span><span style="background:#4cc900"></span>
+  </div>
+  <h1>Numby</h1>
+  <div class="tag">color by number</div>
+  <p>Relaxing color-by-number with endless generated artworks.<br>Coming to Google Play.</p>
+  <div class="links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </div>
+</main>
+</body>
+</html>
